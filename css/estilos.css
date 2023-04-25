@@ -692,6 +692,32 @@ width:80%
     padding: 1px 70px 1px 1px;
   }
 
+/******* FOOTER*******/
+    footer {
+    background-image: url("../img/img5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 500px 250px 0px ;
+  }
+
+
+    .FlexContainer13{
+    display: flex  ;
+    justify-content: center ;
+    align-items: flex-end   ;
+
+    }
+
+
+    
+
+
+
+
+
+
+
+
 
 
 
