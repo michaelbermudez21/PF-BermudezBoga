@@ -152,15 +152,6 @@ nav ul li a {
 
 /*MENU*/
 
-ul{
-    display: flex;
-    list-style: none;
-    background-color: rgb(255, 253, 253);
-    height: 30px;
-}
-
-
-
 
 
 
@@ -356,6 +347,16 @@ ul ul :hover{
 
 
         /***video*/
+
+        .contenedorvideo1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+
+
         .title{
             font-size:2,5 rem ;
             text-align: center;
@@ -519,7 +520,7 @@ font-weight: 750;}
     }
     .contenedorServicio3__img{
         display: flex;
-        flex-wrap: nowrap;
+        
         flex-wrap:wrap;
         align-items: center;
     }
@@ -670,6 +671,11 @@ width:80%
     margin: 150px 50px 50px;
 
 }
+
+
+
+
+
 
 .whatsapp-icon{
 

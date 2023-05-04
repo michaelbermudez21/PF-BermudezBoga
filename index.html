@@ -115,39 +115,58 @@
         </section>
         <section>
         <div>
-            <iframe src="https://assets.pinterest.com/ext/embed.html?id=79305643430650514" height="900" width="450" frameborder="0" scrolling="no" ></iframe>
-            <p>About us..."50 years of experience
+            <section class="contenedorvideo1">
+                <iframe src="https://assets.pinterest.com/ext/embed.html?id=79305643430650514" height="900" width="450" frameborder="0" scrolling="no" ></iframe>
+                    <p>About us..."50 years of experience
                 A clothing company, a family of honest values ​​with the clear goal of exceeding expectations by providing the best textile products, always at the forefront and a great customer experience in every interaction."</p>
+                    <p>Sobre nosotros..."50 años de experiencia Una empresa de confección, una familia de valores honestos con el claro objetivo de superar las expectativas brindando los mejores productos textiles, siempre a la vanguardia y una gran experiencia del cliente en cada interacción." </p>
+            </section>
         </div>
         <section>
-            <div>
-                <section id="formulario"></section>
-                <section class="card contenedorFormulario">
-                <h2>Formulario Atención al cliente</h2>
-                <form action="">
-                    <div>
-                        <label for="Nombre">Nombre:</label>
-                        <input type="text" value="Nombre" placeholder="Ingrese su nombre">
+            <section id="formulario"></section>
+            <div class="container">
+                <form class="row g-3 mt-3">
+
+
+                    <div class="col-6">
+                        <label for="emailinput" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="emailinput" placeholder="Escribe tu email">
                     </div>
-                    <div>
-                        <label for="apellido>">Apellido:</label>
-                        <input type="text" name="apellido">
+
+                    <div class="col-6">
+                        <label for="inputPass" class="form-label">Motivo por el cual nos contactas</label>
+                        <input type="text" class="form-control" id="inputReason" placeholder="Escribe Aquí">
                     </div>
-                    <div>
-                        <label for="grado-de-satifacción">En general, ¿qué tan satisfecho estuviste con la visita a nuestra tienda?:</label>
-                            <p>Muy buena</p>
-                        <input type="radio" name="grado-de-satifacción" value="Muy buena">
-                            <p>Regular</p>
-                        <input type="radio" name="grado-de-satifacción" value="Regular">
-                            <p>Muy mala</p>
-                        <input type="radio" name="grado-de-satifacción"value="Muy mala">
+
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Dirrección</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Dirección">
                     </div>
-                    <h2>Agrega un comentario</h2>
-                    <div>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Dirrección 2</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Dirección">
                     </div>
-                    <div>
-                        <button type="submit">Enviar</button>    
+                    <div class="col-6">
+                        <label for="cityinput" class="form-label">Ciudad</label>
+                        <input type="text" class="form-control" id="cityInput" placeholder="Ciudad">
+                    </div>
+                    <div class="col-3">
+                        <label for="postalcodeinput" class="form-label">Codigo Postal</label>
+                        <input type="text" class="form-control" id="postalcodeInput" placeholder="Codigo Postal">
+                    </div>
+                    <div class="col-3">
+                        <label for="countryinput" class="form-label">Pais</label>
+                        <input type="text" class="form-control" id="countryinput" placeholder="Pais">
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input type="checkbox" id="checkTerms" class="form-check-input">
+                            <label for="checkTerms"class="form-check-label">Acepto los términos</label>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit"class="btn btn-primary">
+                            Enviar
+                        </button>
                     </div>
                 </form>
             </div>
