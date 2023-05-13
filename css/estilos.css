@@ -1,7 +1,7 @@
 /*clase*/
 /*Fuente stilo*/
 
-@import url('https://fonts.googleapis.com/css2? family= Kanit:wght@500;700 & family= Permanent+Marker & display=swap');
+
 
 
 *{
@@ -29,7 +29,6 @@ ul *{
 
 header{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 10px 10px 10px 10px  ;
     width: 60%;
@@ -48,6 +47,8 @@ header nav{
 
 
 header div{
+    display: flex;
+    justify-content: center;
     width: 400px;
 
 }
@@ -94,6 +95,49 @@ nav ul li a {
     color: rgb(241, 45, 45);
   }
 
+/********BERMUDAS Y SHORTS*********/
+.grid-containerbermudas {
+    display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+
+}
+
+/**************CAMISAS Y REMERAS**********/
+.grid-containerremeras {
+    display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+
+}
+
+
+
+/**********BUZOS************/
+
+.grid-containerbuzos{
+    display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+
+}
+
+/***PANTALONES****/
+
+.grid-containerPantalones{
+    display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+
+}
+/****CALZADO*****/
+
+.grid-containerCalzado{
+    display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+}
+
+
+
+
+
+
 
 
 
@@ -121,6 +165,14 @@ nav ul li a {
     padding: 10px;
     margin-bottom: 20px;
 }
+
+p:not(.contenedor-texto1){
+    font-size: 20PX;
+    color: rgb(50 76 66 / 95%);
+}
+
+
+
 
 .contenedor-texto2{
     display: flex;
@@ -697,7 +749,7 @@ width:80%
   }
 
 /*************************** FOOTER*******************************/
-    footer {
+footer {
     background-image: url("../img/img5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -705,24 +757,27 @@ width:80%
   }
 
 
-    .FlexContainer13{
-    display: flex  ;
-    justify-content: center ;
-    align-items: flex-end   ;
-
-    }
-
-    .FlexContainer16{
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-end;
-    }
     
-    .FlexContainer18{
-        display: flex;
-        margin: 5px;
-    }
     
+/********Footer************/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px; 
+  }
+  
+
+  .grid-item img {
+    width: 100%; 
+    height: auto; 
+  }
+
+
+  .footer {
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
 
 
 
@@ -775,10 +830,10 @@ width:80%
         }
         
     }
-    
 
 
 
+      
 
 /*********************************HOME MEDIA QUERY*******************************/
 
@@ -814,7 +869,7 @@ width:80%
 
 
     
-seguir aplicando a esto lo del carrito
+
 
 
     @media screen and (max-width: 800px){
@@ -828,5 +883,4 @@ seguir aplicando a esto lo del carrito
     
 
     
-
 
